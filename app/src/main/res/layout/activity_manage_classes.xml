@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    tools:context=".ManageClassesActivity">
+
+    <!-- Title for the screen -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_your_classes"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal" />
+
+    <!-- Class Name Input -->
+    <EditText
+        android:id="@+id/classNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/class_namee"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Class Time Input -->
+    <EditText
+        android:id="@+id/classTimeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/class_time_e_g_8_00_amm"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Class Day Input -->
+    <EditText
+        android:id="@+id/classDayInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/class_day_e_g_mondayy"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Class Button -->
+    <Button
+        android:id="@+id/addClassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_classs"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp" />
+
+    <!-- List of Added Classes -->
+    <ListView
+        android:id="@+id/classListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

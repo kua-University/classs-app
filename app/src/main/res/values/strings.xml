@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ClassCSschedule</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register here</string>
+    <string name="monday_data_structures_8_00_am">Monday - Data Structures 8:00 AM</string>
+    <string name="add_new_schedule">Add New Schedule</string>
+    <string name="your_class_schedule">Your Class Schedule</string>
+    <string name="view_notifications">View Notifications</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="tuesday_study_for_ai_basics">Tuesday - Study for AI Basics</string>
+    <string name="monday_complete_assignment">Monday - Complete Assignment</string>
+    <string name="weekly_view">Weekly View</string>
+    <string name="weekly_views">Weekly View</string>
+    <string name="quick_actionss">Quick Actions</string>
+    <string name="helloo">Hello!</string>
+    <string name="schedule">Schedule</string>
+    <string name="class_scheduler">Class Scheduler</string>
+    <string name="email_adress">Email Adress</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="back">Back</string>
+    <string name="manage_classes">Manage Classes</string>
+    <string name="class_name">Class Name</string>
+    <string name="class_time_e_g_8_00_am">Class Time (e.g., 8:00 AM)</string>
+    <string name="class_day_e_g_monday">Class Day (e.g., Monday)</string>
+    <string name="add_class">Add Class</string>
+    <string name="manage_your_classes">Manage Your Classes</string>
+    <string name="class_namee">Class Name</string>
+    <string name="class_time_e_g_8_00_amm">Class Time (e.g., 8:00 AM)</string>
+    <string name="class_day_e_g_mondayy">Class Day (e.g., Monday)</string>
+    <string name="add_classs">Add Class</string>
+    <string name="sign_up">signup</string>
+    <string name="already_have_account">already_have_account? login</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="email_address">email adress</string>
+    <string name="sign_upp">Sign Up</string>
+    <string name="email_addresss">Email Address</string>
+    <string name="passwordd">Password</string>
+    <string name="confirm_passwordd">Confirm Password</string>
+    <string name="sign_uppp">Sign Up</string>
+    <string name="sign_u">Sign Up</string>
+    <string name="email_addre">Email Address</string>
+    <string name="passwor">Password</string>
+    <string name="confirm_passwor">Confirm Password</string>
+    <string name="sign_up2">Sign Up</string>
+    <string-array name="user_roles">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+
+</resources>
