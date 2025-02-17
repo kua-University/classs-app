@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699747394619",
+    "project_id": "classapplication-60939",
+    "storage_bucket": "classapplication-60939.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699747394619:android:1b82b9aca6d62a31fce81e",
+        "android_client_info": {
+          "package_name": "com.example.classcsschedule"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8f8_3jqsiTD7ZQmyi1DDqVvvRFsiX9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
