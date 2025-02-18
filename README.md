@@ -1,10 +1,12 @@
-# classs-app
+ classs-app
 
 
 ---
+NB.The branch is in MASTER
 
 Class Scheduling App for EiTM (EiT-M)**
-#Project Status: In Progress 
+Project Status: In Progress 
+
 
 This project is a Class Scheduling App developed for the EiTM (School of Computing) Department at the Ethiopian Institute of Technology-Mekelle (EiT-M). It automates class scheduling, ensuring conflict-free timetables for students, instructors, and department heads.
 
