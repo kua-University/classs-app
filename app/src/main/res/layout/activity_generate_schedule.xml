@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="16dp"
+    tools:context=".GeneratescheduleActivity">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Class Schedules"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Input for Year -->
+    <EditText
+        android:id="@+id/input_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_year_e_g_20255"
+        android:textColor="#FFD700"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#666666"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Input for Semester -->
+    <EditText
+        android:id="@+id/input_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_semester_e_g_2"
+        android:textColor="#FFD700"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Generate Schedule for First Year -->
+    <Button
+        android:id="@+id/first_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Schedule for First Year"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Generate Schedule for Second Year -->
+    <Button
+        android:id="@+id/second_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Schedule for Second Year"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Generate Schedule for Third Year -->
+    <Button
+        android:id="@+id/third_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Schedule for Third Year"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Generate Schedule for Fourth Year -->
+    <Button
+        android:id="@+id/fourth_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Schedule for Fourth Year"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Status Message -->
+    <TextView
+        android:id="@+id/finish_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Waiting..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

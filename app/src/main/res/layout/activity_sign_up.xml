@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an Account"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFD700"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Name Input -->
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:textColorHint="@color/white"
+            android:hint="Full Name"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/uniId_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:textColorHint="@color/white"
+            android:hint="University Id"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            tools:ignore="HardcodedText" />
+
+        <!-- Email Input -->
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Email"
+            android:textColorHint="@color/white"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Password Input -->
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:textColorHint="@color/white"
+            android:hint="Password"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:inputType="textPassword"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+
+        <EditText
+            android:id="@+id/confirm_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:textColorHint="@color/white"
+            android:hint="Confirm Password"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFD700"
+            android:inputType="textPassword"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Sign-Up Button -->
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#000000"
+            android:backgroundTint="#FFD700"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Back to Login -->
+        <Button
+            android:id="@+id/back_to_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Login"
+            android:textColor="#000000"
+            android:backgroundTint="#FFD700"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</ScrollView>

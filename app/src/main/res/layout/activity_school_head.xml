@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="24dp"
+    tools:context=".SchoolHeadDashboard">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Head Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Assign Courses Button -->
+    <Button
+        android:id="@+id/assign_courses_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assign Courses"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+
+    <Button
+        android:id="@+id/create_schedule_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Schedule"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- View Schedules Button -->
+    <Button
+        android:id="@+id/view_schedules_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Schedules"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+    <ListView
+        android:id="@+id/schedule_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFD700"
+        android:dividerHeight="2dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" />
+
+</LinearLayout>

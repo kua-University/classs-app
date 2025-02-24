@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".InstructorDashboard">
+
+
+    <TextView
+        android:id="@+id/title_instructor_dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructor_view_department_schedules"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+
+    <EditText
+        android:id="@+id/input_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_department_name"
+        android:textColor="#000000"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/view_dept_schedules_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_schedules_by_department"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginTop="8dp" />
+
+
+    <ListView
+        android:id="@+id/schedule_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

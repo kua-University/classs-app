@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000"
+    tools:context=".StudentDashboard">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Department Selection -->
+    <EditText
+        android:id="@+id/input_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_department"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Class Year Selection -->
+    <EditText
+        android:id="@+id/input_class_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_class_year_first_second_etc"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Section Selection -->
+    <EditText
+        android:id="@+id/input_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_section_number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Semester Selection -->
+    <EditText
+        android:id="@+id/input_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/enter_semester_1_or_2"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Academic Year Selection -->
+    <EditText
+        android:id="@+id/input_academic_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_academic_year_e_g_2025"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFD700"
+        android:backgroundTint="#FFD700"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- View Schedules Button -->
+    <Button
+        android:id="@+id/view_schedules_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_my_schedule"
+        android:textColor="#000000"
+        android:backgroundTint="#FFD700"
+        android:layout_marginTop="8dp" />
+
+
+    <ListView
+        android:id="@+id/schedule_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:padding="8dp"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

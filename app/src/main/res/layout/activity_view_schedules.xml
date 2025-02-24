@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".ViewSchedulesActivity">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title_view_schedules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generated_schedules"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFD700"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- ListView to display schedules -->
+    <ListView
+        android:id="@+id/schedule_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFD700"
+        android:dividerHeight="2dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>
