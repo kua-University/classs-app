@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/scheduleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_class_schedule"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Example schedule items -->
+    <TextView
+        android:id="@+id/scheduleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/monday_data_structures_8_00_am"
+        android:padding="8dp"
+        android:background="@drawable/input_background"
+        android:layout_marginBottom="8dp" />
+
+
+    <Button
+        android:id="@+id/addScheduleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_schedule" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+    
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:padding="16dp">
+
+    <!-- TextView for Welcome Message -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/helloo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to Navigate to Schedule -->
+    <Button
+        android:id="@+id/scheduleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white" />
+
+    <!-- Button to Navigate to Weekly View -->
+    <Button
+        android:id="@+id/weeklyViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weekly_views"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/white" />
+
+    <!-- Button to Navigate to Quick Actions -->
+    <Button
+        android:id="@+id/quickActionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_actionss"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
